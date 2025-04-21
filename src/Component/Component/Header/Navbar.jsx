@@ -7,7 +7,7 @@ import NavlInko from '../Header/NavsubLink';
 const Navbar = () => {
  
     return (
-        <div className="navbar p-0 bg-gray-100 shadow-sm lg:px-16 lg:mx-auto">
+        <div className="navbar p-0 bg-gray-100 shadow-sm max-w-screen-2xl mx-auto px-8 md:px-16 xl:px-24">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
