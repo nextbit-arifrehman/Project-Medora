@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const DoctorCard = ({doctor}) => {
 
-const { image, experience,Available,registration_number,doctor_name,education} = doctor || [];
+const { image,id, experience,Available,registration_number,doctor_name,education} = doctor || [];
 
   return (
     <div>
@@ -24,7 +24,7 @@ const { image, experience,Available,registration_number,doctor_name,education} =
           <h2 className="card-title">{doctor_name}</h2>
           <h3 className="border-b-2 py-4 border-dashed">{education}</h3>
           <h3>Reg No:{registration_number}</h3>
-          <Link to="/viewdetails" className="card-actions justify-end">
+          <Link to={`/viewdetails/${id}`} className="card-actions justify-end">
             <button
               className="btn btn-primary bg-white 
              text-blue-500 rounded-2xl w-full"
