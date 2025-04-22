@@ -9,6 +9,9 @@ const Home = () => {
 
   const handleSearch = (e, text) => {
     e.preventDefault();
+    
+    if(text === '') return setDoctors(data)
+
     const searchDoctor = data.filter(
       (doctor) =>
         doctor.doctor_name.toLowerCase().includes(text.toLowerCase()) ||

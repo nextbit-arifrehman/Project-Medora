@@ -22,7 +22,12 @@ const Hero = ({ handleSearch }) => {
 
      
         <form
-          onSubmit={(e) => handleSearch(e, searchText)}
+          onSubmit={(e) =>{
+             handleSearch(e, searchText);
+             setsearchText("");
+          }
+            
+          }
           className="flex flex-col md:flex-row justify-center items-center w-full max-w-3xl mx-auto space-y-2 md:space-y-0 md:space-x-2 mb-6 px-3"
         >
           <input
