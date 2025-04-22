@@ -1,19 +1,22 @@
 [
   {
+    "id": 1,
     "doctor_name": "Dr. Sumona Das",
     "fee": "3000tk",
-    "education": "MBBS, BCS (Health), MD (Medical Oncology), FCPS (Medicine, Part 2)",
+    "education": "MBBS, BCS (Health), MD (Medical Oncology), FCPS",
     "specialty_name": "Cancer & Medicine Specialist",
     "specialist": "Cancer Specialist",
     "experience": "10+ Years",
     "designation": "Consultant, Medicine Unit",
     "workplace": "Khulna Medical College & Hospital",
     "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "registration_number": "7631389",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 8,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr.-Sumona-Das.jpg"
   },
   {
+    "id": 2,
     "doctor_name": "Dr. Kazi Irfan Subhan",
     "fee": "3500tk",
     "education": "MBBS, BCS (Health), MS (Neurosurgery)",
@@ -23,11 +26,13 @@
     "designation": "Neurosurgeon",
     "workplace": "Dhaka Medical College & Hospital",
     "availability": ["Saturday", "Monday", "Wednesday"],
-    "registration_number": "2156490",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 6,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr.-Kazi-lrfan-Subhan.jpg"
   },
   {
+    "id": 3,
     "doctor_name": "Dr. Md. Nahid Sikder",
     "fee": "2500tk",
     "education": "MBBS (Dhaka), BCS (Health), FCPS (Surgery)",
@@ -37,11 +42,13 @@
     "designation": "Consultant & Head, Department of Surgery",
     "workplace": "Kuwait Bangladesh Friendship Govt. Hospital, Uttara, Dhaka",
     "availability": ["Saturday", "Monday", "Tuesday", "Wednesday"],
-    "registration_number": "5257759",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 9,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr.-Md.-Nahid-Sikder.jpg"
   },
   {
+    "id": 4,
     "doctor_name": "Dr. Nusrat Hoque",
     "fee": "4000tk",
     "education": "MBBS, FCPS (Radiation Oncology)",
@@ -51,11 +58,13 @@
     "designation": "Junior Consultant, Radiation Oncology",
     "workplace": "Ahsania Mission Cancer & General Hospital",
     "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "registration_number": "6028091",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 9,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr.-Nusrat-Hoque.jpg"
   },
   {
+    "id": 5,
     "doctor_name": "Prof. Dr. Md. Nasir Uddin",
     "fee": "1500tk",
     "education": "MBBS, FCPS (Surgery), PhD (USA)",
@@ -65,11 +74,13 @@
     "designation": "Professor & Head of the Department of Surgery",
     "workplace": "Faridpur Medical College & Hospital",
     "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "registration_number": "1512885",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 3,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Prof.-Dr.-Md.-Nasir-Uddin.jpg"
   },
   {
+    "id": 6,
     "doctor_name": "Dr. Zannatul Ferdous Peu",
     "fee": "2800tk",
     "education": "MBBS (DMC), MRCS (UK), MS (Pediatric Surgery)",
@@ -79,25 +90,29 @@
     "designation": "Medical Officer (Pediatric Surgery)",
     "workplace": "Bangladesh Medical University (BMU)",
     "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "registration_number": "3302880",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 1,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr.-Zannatul-Ferdous-Peu.jpg"
   },
   {
+    "id": 7,
     "doctor_name": "Dr. Mohammad Sohel-Uzzaman",
     "fee": "4500tk",
-    "education": "MBBS (SBMC), BCS (Health), FCPS (Surgery), F-MAS, Fellowship in GI Endoscopy (Delhi)",
+    "education": "MBBS (SBMC), BCS (Health), FCPS (Surgery), F-MAS",
     "specialty_name": "General & Endo-Laparoscopic Surgeon",
     "specialist": "General Surgeon",
     "experience": "6+ Years",
     "designation": "Assistant Registrar",
     "workplace": "Dhaka Medical College & Hospital",
     "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "registration_number": "7223204",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 1,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr.-Mohammad-Sohel-Uzzaman.jpg"
   },
   {
+    "id": 8,
     "doctor_name": "Prof. Dr. Md. Nazmul Hoque",
     "fee": "2500tk",
     "education": "MBBS, MD (Gastroenterology), FACP (USA), FRCP (UK)",
@@ -107,11 +122,13 @@
     "designation": "Professor (Gastroenterology)",
     "workplace": "Bangladesh Institute of Health Sciences Hospital",
     "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "registration_number": "3700546",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 1,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Prof.-Dr.-Md.-Nazmul-Hoque.jpg"
   },
   {
+    "id": 9,
     "doctor_name": "Dr. Isabela Kabir",
     "fee": "3500tk",
     "education": "MBBS, MCPS, FCPS (Skin & VD)",
@@ -121,11 +138,13 @@
     "designation": "Consultant, Dermatology & Venereology",
     "workplace": "Labaid Specialized Hospital, Dhanmondi",
     "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "registration_number": "4421102",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 163,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr.-Isabela-Kabir.jpg"
   },
   {
+    "id": 10,
     "doctor_name": "Dr. Raihana Ahmed",
     "fee": "4500tk",
     "education": "MBBS, BCS (Health), MS (Surgery)",
@@ -135,11 +154,13 @@
     "designation": "Registrar, Surgery",
     "workplace": "Chittagong Medical College & Hospital",
     "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "registration_number": "2577810",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 82,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr.-Raihana-Ahmed.jpg"
   },
   {
+    "id": 11,
     "doctor_name": "Dr. Abdullah-Al-Maruf",
     "fee": "3200tk",
     "education": "MBBS (CMC), BCS (Health), FCPS (Surgery)",
@@ -149,22 +170,25 @@
     "designation": "Consultant (Surgery)",
     "workplace": "CSCR Hospital & Diagnostic Centre, Chittagong",
     "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "registration_number": "5988659",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 7,
     "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr.-Abdullah-Al-Maruf.jpg"
   },
   {
+    "id": 12,
     "doctor_name": "Dr. Syed Aftub Uddin",
     "fee": "2800tk",
-    "education": "MBBS (SOMC), BCS (Health), MS (General Surgery), CCCD (NHF)",
+    "education": "MBBS (SOMC), BCS (Health), MS (General Surgery), CCCD",
     "specialty_name": "General, Laparoscopic, Colorectal & Breast Surgeon",
     "specialist": "General Surgeon",
     "experience": "11+ Years",
     "designation": "Consultant Surgeon",
     "workplace": "Chittagong Medical College & Hospital",
     "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "registration_number": "1149198",
+    "Available": "Available",
+    "registration_number": "BD-92947239",
     "rating": 10,
-    "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr.-Syed-Aftub-Uddin.jpg"
+    "image": "https://raw.githubusercontent.com/nextbit-arifrehman/Assigment08-Photo-Host/refs/heads/main/Dr-Syed-Aftub-Uddin.jpg"
   }
 ]

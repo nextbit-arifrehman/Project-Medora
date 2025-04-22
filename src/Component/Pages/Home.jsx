@@ -1,13 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Hero from '../Component/MIDoutLet/Hero';
+import { useLoaderData } from 'react-router';
+import BelowHero from '../Component/MIDoutLet/BelowHero';
 
 const Home = () => {
-    return (
-        <div>
-               <Hero></Hero>
-               
-        </div>
+  const data = useLoaderData();
+  const [doctors, setDoctors] = useState(data);
+
+  const handleSearch = (e, text) => {
+    e.preventDefault();
+    const searchDoctor = data.filter(
+      (doctor) =>
+        doctor.doctor_name.toLowerCase().includes(text.toLowerCase()) ||
+        doctor.specialist.toLowerCase().includes(text.toLowerCase())
+       
     );
+
+    setDoctors(searchDoctor); 
+  };
+
+  return (
+    <div>
+      <Hero handleSearch={handleSearch}></Hero>
+      <BelowHero doctors={doctors}></BelowHero>
+    </div>
+  );
 };
 
 export default Home;

@@ -12,7 +12,7 @@ const Footer = () => {
 
 
     return (
-        <footer className="footer footer-horizontal footer-center  text-base-content rounded p-4 shadow-2xl">
+        <footer className="footer footer-horizontal footer-center  text-base-content rounded p-4 shadow-2xl bg-white">
           
           <div to='/' className="text-2xl flex items-center"><img 
           className='w-7 h-7' src={Logo} alt="" /><span 

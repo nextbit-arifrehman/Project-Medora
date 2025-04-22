@@ -18,6 +18,9 @@ export const router = createBrowserRouter([
       children:[
        {
         path: "/",
+        hydrateFallbackElement:<span className=" loading loading-infinity loading-lg"></span>
+       ,
+        loader: ()=> fetch('Doctor.json') ,
         Component: Home
        },
        {
