@@ -1,11 +1,21 @@
 import React from "react";
 import Navbar from "../Component/Header/Navbar";
-import { Outlet } from "react-router";
 import Footer from "../Component/Footer/Footer";
+import { Outlet, useLocation } from "react-router";
 import { ToastContainer } from "react-toastify";
+import CountUp from "react-countup";
+
+import doctorImg from "../../assets/success-doctor.png";
+import reviewImg from "../../assets/success-review.png";
+import patientsImg from "../../assets/success-patients.png";
+import staffsImg from "../../assets/success-staffs.png";
 
 
 const Root = () => {
+  const location = useLocation();
+   const isHomePage = location.pathname === "/";
+  const hideFooterOnContact = location.pathname === "/contact";
+
   return (
     <>
       <Navbar />
@@ -14,7 +24,76 @@ const Root = () => {
           <Outlet />
         </div>
       </div>
-      <Footer />
+
+      {/* Show only on home page */}
+      {isHomePage && (
+        <div className=" text-center py-4 text-lg font-semibold text-green-800">
+          <h1 className="text-2xl font-bold">
+            We Provide Best Medical Services
+          </h1>
+          <p>
+            Our platform connects you with verified, experienced doctors across
+            various specialties — all at your convenience.
+          </p>
+          <div className="grid grid-cols-2 mx-3 sm:grid-cols-2 md:grid-cols-4 gap-6 md:mx-10 lg:mx-20 mt-6">
+            <div className="bg-white p-4 shadow rounded">
+              <img className="w-10 mx-auto" src={doctorImg} alt="Doctor" />
+              <h1 className="font-bold text-3xl text-green-800">
+                <CountUp
+                  end={199}
+                  duration={2}
+                  enableScrollSpy
+                  scrollSpyDelay={300}
+                />
+                +
+              </h1>
+              <p>Total Doctors</p>
+            </div>
+            <div className="bg-white p-4 shadow rounded">
+              <img className="w-10 mx-auto" src={reviewImg} alt="Review" />
+              <h1 className="font-bold text-3xl text-green-800">
+                <CountUp
+                  end={467}
+                  duration={2}
+                  enableScrollSpy
+                  scrollSpyDelay={300}
+                />
+                +
+              </h1>
+              <p>Total Reviews</p>
+            </div>
+            <div className="bg-white p-4 shadow rounded">
+              <img className="w-10 mx-auto" src={patientsImg} alt="Patients" />
+              <h1 className="font-bold text-3xl text-green-800">
+                <CountUp
+                  end={1900}
+                  duration={2.5}
+                  enableScrollSpy
+                  scrollSpyDelay={300}
+                />
+                +
+              </h1>
+              <p>Patients</p>
+            </div>
+            <div className="bg-white p-4 shadow rounded">
+              <img className="w-10 mx-auto" src={staffsImg} alt="Staffs" />
+              <h1 className="font-bold text-3xl text-green-800">
+                <CountUp
+                  end={300}
+                  duration={2}
+                  enableScrollSpy
+                  scrollSpyDelay={300}
+                />
+                +
+              </h1>
+              <p>Total Staffs</p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Show Footer only if not on the contact page */}
+      {!hideFooterOnContact && <Footer />}
 
       <ToastContainer
         position="top-center"

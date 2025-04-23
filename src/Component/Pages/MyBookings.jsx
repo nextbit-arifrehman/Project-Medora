@@ -44,6 +44,11 @@ const MyBookings = () => {
           </div>
         </div>
       ) : (
+        <div>
+          {/* custom chart dynamic should be here */}
+         <div className="">
+          
+          </div> 
         <div className="space-y-8">
           <div className="flex flex-col text-center">
             <h1 className="text-2xl font-bold mb-2 ">My Appointments</h1>
@@ -67,6 +72,7 @@ const MyBookings = () => {
               </button>
             </div>
           ))}
+        </div>
         </div>
       )}
     </div>
