@@ -9,12 +9,13 @@ import MyBookings from '../Pages/MyBookings';
 import Blogs from '../Pages/Blogs';
 import Contact from '../Pages/Contact';
 import ViewDetails from '../Pages/ViewDetails';
+import Error from '../Pages/Error';
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
-    errorElement: <h1>404 hosse</h1>,
+    errorElement: <Error></Error> ,
     children: [
       {
         path: "/",
@@ -38,6 +39,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/viewdetails/:id",
+        
         loader: () => fetch("/Doctor.json"),
         Component: ViewDetails,
       },

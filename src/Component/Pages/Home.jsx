@@ -7,6 +7,7 @@ const Home = () => {
   const data = useLoaderData();
   const [doctors, setDoctors] = useState(data);
 
+
   const handleSearch = (e, text) => {
     e.preventDefault();
     
