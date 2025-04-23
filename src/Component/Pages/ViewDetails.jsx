@@ -47,23 +47,24 @@ const ViewDetails = () => {
 
     const storedAppointments =
       JSON.parse(localStorage.getItem("appointments")) || [];
-
     const isAlreadyBooked = storedAppointments.some(
       (item) => item.doctorName === doctor_name
     );
 
     if (isAlreadyBooked) {
-      toast.warning("Appointment already scheduled for today!", {
-        position: "top-right",
-        autoClose: 3000,
-      });
+      toast.warning(
+        `Appointment with Dr. ${doctor_name} is already scheduled for today!`,
+        {
+          position: "top-right",
+          autoClose: 3000,
+        }
+      );
       return;
     }
-
     storedAppointments.push(appointment);
     localStorage.setItem("appointments", JSON.stringify(storedAppointments));
 
-    toast.success("Appointment booked successfully!", {
+    toast.success(`Appointment with Dr. ${doctor_name} booked successfully!`, {
       position: "top-right",
       autoClose: 3000,
     });

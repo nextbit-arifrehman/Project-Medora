@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Component/Header/Navbar";
 import Footer from "../Component/Footer/Footer";
-import { Outlet, useLocation } from "react-router";
+import { Outlet, useLocation, useNavigation } from "react-router";
 import { ToastContainer } from "react-toastify";
 import CountUp from "react-countup";
 
@@ -10,24 +10,33 @@ import reviewImg from "../../assets/success-review.png";
 import patientsImg from "../../assets/success-patients.png";
 import staffsImg from "../../assets/success-staffs.png";
 
-
 const Root = () => {
   const location = useLocation();
-   const isHomePage = location.pathname === "/";
+  const navigation = useNavigation();
+  const isLoading = navigation.state === "loading";
+
+  const isHomePage = location.pathname === "/";
   const hideFooterOnContact = location.pathname === "/contact";
 
   return (
     <>
       <Navbar />
+
+      {/* Spinner placed below navbar */}
+      {isLoading && (
+        <div className="w-full py-4 text-center">
+          <span className="loading loading-bars loading-xs"></span>
+        </div>
+      )}
+
       <div className="min-h-[calc(100vh-279px)]">
         <div className="max-w-screen-2xl mx-auto px-8 md:px-16 xl:px-24">
           <Outlet />
         </div>
       </div>
 
-      {/* Show only on home page */}
       {isHomePage && (
-        <div className=" text-center py-4 text-lg font-semibold text-green-800">
+        <div className="text-center py-4 text-lg font-semibold text-green-800">
           <h1 className="text-2xl font-bold">
             We Provide Best Medical Services
           </h1>
@@ -92,7 +101,6 @@ const Root = () => {
         </div>
       )}
 
-      {/* Show Footer only if not on the contact page */}
       {!hideFooterOnContact && <Footer />}
 
       <ToastContainer

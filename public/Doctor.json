@@ -2,7 +2,7 @@
   {
     "id": 1,
     "doctor_name": "Dr. Sumona Das",
-    "fee": "3000tk",
+    "fee": 3000,
     "education": "MBBS, BCS (Health), MD (Medical Oncology), FCPS",
     "specialty_name": "Cancer & Medicine Specialist",
     "specialist": "Cancer Specialist",
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "doctor_name": "Dr. Kazi Irfan Subhan",
-    "fee": "3500tk",
+    "fee": 3500,
     "education": "MBBS, BCS (Health), MS (Neurosurgery)",
     "specialty_name": "Brain, Nerve, Stroke & Spine Specialist & Surgeon",
     "specialist": "Neurosurgeon",
@@ -34,7 +34,7 @@
   {
     "id": 3,
     "doctor_name": "Dr. Md. Nahid Sikder",
-    "fee": "2500tk",
+    "fee": 2500,
     "education": "MBBS (Dhaka), BCS (Health), FCPS (Surgery)",
     "specialty_name": "General, Laparoscopic, Breast & Colorectal Surgeon",
     "specialist": "General Surgeon",
@@ -50,7 +50,7 @@
   {
     "id": 4,
     "doctor_name": "Dr. Nusrat Hoque",
-    "fee": "4000tk",
+    "fee": 4000,
     "education": "MBBS, FCPS (Radiation Oncology)",
     "specialty_name": "Cancer Specialist",
     "specialist": "Cancer Specialist",
@@ -66,7 +66,7 @@
   {
     "id": 5,
     "doctor_name": "Prof. Dr. Md. Nasir Uddin",
-    "fee": "1500tk",
+    "fee": 1500,
     "education": "MBBS, FCPS (Surgery), PhD (USA)",
     "specialty_name": "General, Laparoscopic, & Hepatobiliary Surgeon",
     "specialist": "General Surgeon",
@@ -82,7 +82,7 @@
   {
     "id": 6,
     "doctor_name": "Dr. Zannatul Ferdous Peu",
-    "fee": "2800tk",
+    "fee": 2800,
     "education": "MBBS (DMC), MRCS (UK), MS (Pediatric Surgery)",
     "specialty_name": "Pediatric Surgery Specialist",
     "specialist": "Pediatric Surgery",
@@ -98,7 +98,7 @@
   {
     "id": 7,
     "doctor_name": "Dr. Mohammad Sohel-Uzzaman",
-    "fee": "4500tk",
+    "fee": 4500,
     "education": "MBBS (SBMC), BCS (Health), FCPS (Surgery), F-MAS",
     "specialty_name": "General & Endo-Laparoscopic Surgeon",
     "specialist": "General Surgeon",
@@ -114,7 +114,7 @@
   {
     "id": 8,
     "doctor_name": "Prof. Dr. Md. Nazmul Hoque",
-    "fee": "2500tk",
+    "fee": 2500,
     "education": "MBBS, MD (Gastroenterology), FACP (USA), FRCP (UK)",
     "specialty_name": "Gastroenterology, Liver & Pancreas Specialist",
     "specialist": "Gastroenterologist",
@@ -130,7 +130,7 @@
   {
     "id": 9,
     "doctor_name": "Dr. Isabela Kabir",
-    "fee": "3500tk",
+    "fee": 3500,
     "education": "MBBS, MCPS, FCPS (Skin & VD)",
     "specialty_name": "Skin, Allergy, Leprosy, Sexual Diseases Specialist",
     "specialist": "Dermatologist",
@@ -146,7 +146,7 @@
   {
     "id": 10,
     "doctor_name": "Dr. Raihana Ahmed",
-    "fee": "4500tk",
+    "fee": 4500,
     "education": "MBBS, BCS (Health), MS (Surgery)",
     "specialty_name": "Breast, General, Laparoscopic & Colorectal Surgery Specialist",
     "specialist": "General Surgeon",
@@ -162,7 +162,7 @@
   {
     "id": 11,
     "doctor_name": "Dr. Abdullah-Al-Maruf",
-    "fee": "3200tk",
+    "fee": 3200,
     "education": "MBBS (CMC), BCS (Health), FCPS (Surgery)",
     "specialty_name": "General, Laparoscopic & Oncosurgery Specialist",
     "specialist": "General Surgeon",
@@ -178,7 +178,7 @@
   {
     "id": 12,
     "doctor_name": "Dr. Syed Aftub Uddin",
-    "fee": "2800tk",
+    "fee": 2800,
     "education": "MBBS (SOMC), BCS (Health), MS (General Surgery), CCCD",
     "specialty_name": "General, Laparoscopic, Colorectal & Breast Surgeon",
     "specialist": "General Surgeon",
